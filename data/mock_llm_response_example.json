@@ -1,0 +1,17 @@
+[
+  {
+    "description": "note記事のドラフト作成",
+    "owner_name": "田中",
+    "depends_on_description": null
+  },
+  {
+    "description": "note記事のレビューと公開",
+    "owner_name": "佐藤",
+    "depends_on_description": "note記事のドラフト作成"
+  },
+  {
+    "description": "今月のKPIレポート作成",
+    "owner_name": "鈴木",
+    "depends_on_description": null
+  }
+]
