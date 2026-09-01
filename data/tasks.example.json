@@ -1,0 +1,41 @@
+[
+  {
+    "id": "T1",
+    "description": "note記事のドラフト作成",
+    "owner_name": "田中",
+    "owner_email": "tanaka@example.com",
+    "leader_email": "keepmetal666@gmail.com",
+    "dep_desc": null,
+    "depends_on": null,
+    "status": "done",
+    "evidence": "note記事ドラフト3本をGoogleドキュメントで共有済み: https://example.com/draft",
+    "created_at": "2026-09-01T06:20:10.838666+00:00",
+    "completed_at": "2026-09-01T06:20:16.740432+00:00"
+  },
+  {
+    "id": "T2",
+    "description": "note記事のレビューと公開",
+    "owner_name": "佐藤",
+    "owner_email": "sato@example.com",
+    "leader_email": "keepmetal666@gmail.com",
+    "dep_desc": "note記事のドラフト作成",
+    "depends_on": "T1",
+    "status": "notified",
+    "evidence": null,
+    "created_at": "2026-09-01T06:20:10.838727+00:00",
+    "completed_at": null
+  },
+  {
+    "id": "T3",
+    "description": "今月のKPIレポート作成",
+    "owner_name": "鈴木",
+    "owner_email": "suzuki@example.com",
+    "leader_email": "keepmetal666@gmail.com",
+    "dep_desc": null,
+    "depends_on": null,
+    "status": "notified",
+    "evidence": null,
+    "created_at": "2026-09-01T06:20:10.838733+00:00",
+    "completed_at": null
+  }
+]

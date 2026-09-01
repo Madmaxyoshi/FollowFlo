@@ -1,0 +1,4 @@
+data/tasks.json
+data/outbox/
+__pycache__/
+*.pyc
